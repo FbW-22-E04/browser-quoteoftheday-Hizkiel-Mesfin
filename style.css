@@ -1,0 +1,70 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  position: relative;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.quote {
+  width: 95%;
+  height: 10rem;
+  text-align: center;
+  font-size: 2.6rem;
+  border: 2px solid teal;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 3rem auto;
+  display: grid;
+  place-items: center;
+  border-radius: 36px;
+  background: #e0e0e0;
+  box-shadow: inset 9px 59px 40px #6e6e6e, inset -29px -29px 83px #ffff00;
+}
+
+.btn {
+  font-size: 2rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  transition: all 0.3s;
+  background-color: teal;
+  color: antiquewhite;
+}
+
+.btn:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  transform: translate(-50%, -3px);
+}
+
+.btn:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, 1px);
+}
